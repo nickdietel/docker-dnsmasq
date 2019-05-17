@@ -1,4 +1,4 @@
-# docker-dnsmasq
+# docker-dnsmasq@arm32v6
 
 dnsmasq in a docker container, configurable via a [simple web UI](https://github.com/jpillora/webproc)
 
