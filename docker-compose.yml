@@ -1,0 +1,12 @@
+version: '2'
+services:
+  dnsmasq:
+    build: .
+    ports:
+     - "53:53/udp"
+     - "5380:8080"
+    volumes:
+     - ./dnsmasq.conf:/etc/dnsmasq.conf
+    environment:
+     - HTTP_USER=foo
+     - HTTP_PASS=bar
